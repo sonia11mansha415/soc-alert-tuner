@@ -1,0 +1,26 @@
+[
+  {
+    "alert_id": "AL-1001",
+    "rule_name": "Network Port Scanning Activity Detected",
+    "source_ip": "10.10.5.20",
+    "destination_ip": "192.168.1.50",
+    "user": "system",
+    "process": "nessus.exe"
+  },
+  {
+    "alert_id": "AL-1002",
+    "rule_name": "Suspicious Backup Command Execution",
+    "source_ip": "10.10.2.14",
+    "destination_ip": "10.10.2.1",
+    "user": "svc_backup",
+    "process": "wbadmin.exe"
+  },
+  {
+    "alert_id": "AL-1003",
+    "rule_name": "Mass File Renaming & Ransomware Indicator",
+    "source_ip": "192.168.50.88",
+    "destination_ip": "192.168.1.10",
+    "user": "finance_guest",
+    "process": "vssadmin.exe"
+  }
+]

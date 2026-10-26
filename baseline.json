@@ -1,0 +1,19 @@
+{
+  "approved_scanners": [
+    {
+      "ip": "10.10.5.20",
+      "hostname": "sec-scanner-01",
+      "purpose": "Internal Nessus Vulnerability Scanner"
+    }
+  ],
+  "service_accounts": [
+    {
+      "username": "svc_backup",
+      "authorized_tasks": ["robocopy.exe", "wbadmin.exe"],
+      "purpose": "Nightly Automated Backup Routine"
+    }
+  ],
+  "trusted_subnets": [
+    "192.168.100.0/24"
+  ]
+}
